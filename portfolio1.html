@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <title>Portfolio</title>
+    <style>
+        .pad{
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+        .widget{
+            width: 2em;
+            height: 2em;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid justify-content-between">
+          <a class="navbar-brand" href="#">My web page</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="d-flex justify-content-center mt-3">
+        <div class="card border-0">
+            <div class="img-container d-flex justify-content-center">
+                <img src="./profile-icon.png" class="w-50">
+            </div>
+            <div class="card-body">
+                <h3 class="card-title text-center">John Smith</h3>
+                <p class="card-text text-center mt-5">User experiance designer  • Web developer</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-secondary">
+        <div class="d-flex justify-content-center mb-2">
+            <h3 class="text-white border-bottom border-3 pad pb-2 pt-3">Portfolio</h3>
+        </div>
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3">
+            <div class="col d-flex justify-content-center mb-2">
+                <img src="./content2-img.png" class="img-fluid">
+            </div>
+            <div class="col d-flex justify-content-center mb-2">
+                <img src="./content2-img.png">
+            </div>
+            <div class="col d-flex justify-content-center mb-2">
+                <img src="./content2-img.png">
+            </div>
+            <div class="col d-flex justify-content-center mb-2">
+                <img src="./content2-img.png">
+            </div>
+            <div class="col d-flex justify-content-center mb-2">
+                <img src="./content2-img.png">
+            </div>
+            <div class="col d-flex justify-content-center mb-2">
+                <img src="./content2-img.png">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about-section mt-5 mb-5">
+        <div class="d-flex justify-content-center mb-3">
+            <h3>About</h3>
+        </div>
+        <div class="row justify-content-center w-100">
+            <div class="col-9 col-md-4 mb-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis facilis perspiciatis autem quas odit quo assumenda eveniet aliquid officiis iste placeat, dolor, tempora obcaecati dolorum. Non in sed eveniet animi.
+            </div>
+            <div class="col-9 col-md-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate culpa molestias eligendi distinctio error, voluptatibus aliquam voluptas eveniet ullam soluta ab expedita neque atque inventore eius. Cumque quis nihil ab.
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-secondary pb-3">
+        <div class="d-flex justify-content-center mb-2">
+            <h3 class="text-white border-bottom border-3 pad pb-2 pt-3">Contact</h3>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div>
+                    <input type="text" class="form-control mb-2" placeholder="Name">
+                    <input type="text" class="form-control mb-2" placeholder="Email">
+                    <textarea placeholder="Message" rows="5" class="w-100 mb-2"></textarea>
+                    <button class="btn btn-primary align-self-start">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center mt-3">
+        <div class="widget rounded-pill border-1 bg-secondary"></div>
+        <div class="widget rounded-pill border-1 bg-secondary"></div>
+        <div class="widget rounded-pill border-1 bg-secondary"></div>
+    </div>
+
+    <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+</body>
+</html>
