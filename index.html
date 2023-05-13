@@ -18,6 +18,9 @@
         .content-img{
             width: 250px;
         }
+        .inner{
+            width: 70%;
+        }
         @media only screen and (max-width: 768px) {
             .content-img{
                  width: 150px;
@@ -25,6 +28,9 @@
            .send-btn{
                 padding-left: 2.5em;
                 padding-right: 2.5em;
+            }
+            .inner{
+                width: 100%;
             }
         }
     </style>
@@ -62,24 +68,26 @@
         <div class="d-flex justify-content-center mb-2">
             <h3 class="text-white border-bottom border-3 pad pb-2 pt-3">Portfolio</h3>
         </div>
-        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3">
-            <div class="col d-flex justify-content-center mb-2">
-                <img src="./content2-img.png"  class="content-img">
-            </div>
-            <div class="col d-flex justify-content-center mb-2">
-                <img src="./content2-img.png" class="content-img">
-            </div>
-            <div class="col d-flex justify-content-center mb-2">
-                <img src="./content2-img.png"  class="content-img">
-            </div>
-            <div class="col d-flex justify-content-center mb-2">
-                <img src="./content2-img.png"  class="content-img">
-            </div>
-            <div class="col d-flex justify-content-center mb-2">
-                <img src="./content2-img.png"  class="content-img">
-            </div>
-            <div class="col d-flex justify-content-center mb-2">
-                <img src="./content2-img.png"  class="content-img">
+        <div class="d-flex justify-content-center">
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 inner">
+                <div class="col d-flex justify-content-center mb-2">
+                    <img src="./content2-img.png" class="content-img">
+                </div>
+                <div class="col d-flex justify-content-center mb-2">
+                    <img src="./content2-img.png" class="content-img">
+                </div>
+                <div class="col d-flex justify-content-center mb-2">
+                    <img src="./content2-img.png" class="content-img">
+                </div>
+                <div class="col d-flex justify-content-center mb-2">
+                    <img src="./content2-img.png" class="content-img">
+                </div>
+                <div class="col d-flex justify-content-center mb-2">
+                    <img src="./content2-img.png" class="content-img">
+                </div>
+                <div class="col d-flex justify-content-center mb-2">
+                    <img src="./content2-img.png" class="content-img">
+                </div>
             </div>
         </div>
     </div>
@@ -104,7 +112,7 @@
             <h3 class="text-white border-bottom border-3 pad pb-2 pt-3">Contact</h3>
         </div>
         <div class="row justify-content-center">
-            <div class="col-10">
+            <div class="col-11 col-sm-8">
                 <div>
                     <input type="text" class="form-control mb-2" placeholder="Name">
                     <input type="text" class="form-control mb-2" placeholder="Email">
